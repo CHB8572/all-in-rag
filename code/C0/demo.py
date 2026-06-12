@@ -2,7 +2,7 @@ from unstructured.partition.auto import partition
 from unstructured.partition.pdf import partition_pdf
 
 # PDF文件路径
-pdf_path = "../../file/sample1.pdf"
+pdf_path = "../../file/C0/sample1.pdf"
 
 # 使用Unstructured加载并解析文档
 elements = partition_pdf(
